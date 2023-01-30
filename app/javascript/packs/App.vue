@@ -1,12 +1,12 @@
 <template>
-  <p>
-    {{ message }}
-  </p>
+  <div id="app">
+    <p>{{ message }}</p>
+  </div>
 </template>
 
 <script>
   export default {
-    data() {
+    data: function(){
       return {
         message: "Hello,Vue3"
       }

@@ -6,6 +6,7 @@ ruby '3.0.4'
 # css framework
 gem 'materialize-sass'
 gem 'material_icons'
+gem 'faker'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.7', '>= 6.1.7.2'

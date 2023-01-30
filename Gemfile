@@ -6,7 +6,7 @@ ruby '3.0.4'
 # css framework
 gem 'materialize-sass'
 gem 'material_icons'
-gem 'faker'
+gem 'faker' # db:seed
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.7', '>= 6.1.7.2'
@@ -34,15 +34,15 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
-  # cording rules
-  gem 'rubocop-airbnb'
+  gem 'pry-rails' # binding.pry
+  gem 'rubocop-airbnb' # cording rules
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
-  gem 'foreman'
+  gem 'foreman' # run rails s & webpack-dev-server
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 4.1.0'
   # Display performance information such as SQL time and flame graphs for each request in your browser.

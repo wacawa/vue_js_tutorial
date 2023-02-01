@@ -4,4 +4,7 @@ Rails.application.routes.draw do
 
   resources :books, only: :index
 
+  namespace :api do
+    resources :books, onlu: :show
+  end
 end

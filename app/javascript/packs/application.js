@@ -12,8 +12,8 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-// import Vue from 'vue'
-// import App from './App.vue'
+import Vue from 'vue'
+import App from '../App.vue'
 
 // const app = new Vue({
 //   el: '#app',

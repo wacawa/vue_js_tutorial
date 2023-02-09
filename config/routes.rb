@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   resources :books, only: :index
 
   namespace :api do
-    resources :books, onlu: :show
+    resources :books, only: :show
   end
 end

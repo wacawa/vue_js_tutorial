@@ -17,7 +17,7 @@ createApp({
   },
   methods: {
     setBookInfo(id) {
-      axios.get(`http://localhost:4000/api/books/${id}.json`).then(res => {
+      axios.get(`http://localhost:5000/api/books/${id}.json`).then(res => {
         this.bookInfo = res.data;
         this.bookInfoBool = true;
       })
